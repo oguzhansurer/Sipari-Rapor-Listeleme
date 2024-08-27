@@ -10,7 +10,7 @@
 *  <--  p2        text
 *----------------------------------------------------------------------*
 form get_data.
-
+ 
   select vbeln erdat ernam vkorg vtweg spart vkgrp vkbur kunnr
     from vbak into table gt_vbak
     where vbeln in s_vbeln
